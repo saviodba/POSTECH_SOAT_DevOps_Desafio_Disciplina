@@ -18,7 +18,7 @@ public class DataController {
 
         @GetMapping("/version")
         public String version() {
-                return "The actual version is 2.2";
+                return "The actual version is 2.3";
         }
 
         @GetMapping("/nations")
